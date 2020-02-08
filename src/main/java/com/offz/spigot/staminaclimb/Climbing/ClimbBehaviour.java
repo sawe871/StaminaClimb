@@ -41,8 +41,8 @@ public class ClimbBehaviour implements Listener {
             "SIGN",
             "SHULKER_BOX");
     private List BLOCK_BLACKLIST = Arrays.asList(
-            Material.BEACON,
             Material.BARREL,
+	    Material.BEACON,
             Material.CAMPFIRE,
             Material.CARTOGRAPHY_TABLE,
             Material.CAULDRON,
@@ -56,7 +56,6 @@ public class ClimbBehaviour implements Listener {
             Material.ENCHANTING_TABLE,
             Material.ENDER_CHEST,
             Material.FARMLAND,
-//            Material.FURNACE, //moving to generalized list to cover the blast furnace
             Material.GRINDSTONE,
             Material.HOPPER,
             Material.HOPPER_MINECART,
